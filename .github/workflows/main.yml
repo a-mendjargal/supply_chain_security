@@ -21,4 +21,5 @@ jobs:
     - name: Upload spdx Artifact
       uses: actions/upload-artifact@v4
       with:
+        path: spdx.json
         name: spdx.json
